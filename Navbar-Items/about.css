@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+h1{
+    font-size: 72px;
+    background: linear-gradient(Lime, Blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Raleway;
+}
+
+p{
+    font-size: 24px;
+    font-family: Righteous;
+    background: linear-gradient(purple, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#pfp{
+    border-radius: 50%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #0044ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Rowdies;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ffa600;
+    color: rgb(83, 0, 104);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #003b26;
+    color: rgb(255, 208, 0);
+  }
